@@ -3,7 +3,10 @@
     "builds": [
       {
         "src": "secure-apisby4.py",
-        "use": "@vercel/python"
+        "use": "@vercel/python",
+        "config": {
+            "python": 3.9
+        }
       }
     ],
     "routes": [
